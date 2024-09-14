@@ -1,0 +1,10 @@
+road_id                  道路id
+road_name            道路名
+road_kind               道路等级
+road_direction        道路方向【利用道路方向区分上下行】
+road_rtic_seq_no    rtic序号【同一条道路包含许多RTIC ,此字段为rtic的上下游关系】
+rtic_id                     rtic_id  
+rtic_link_sort          link序号【同一条RTIC包含许多link ,此字段为link的上下游关系】
+link_id                    link_id
+link_direction          link采样点方向
+link_geometry         link点集坐标
